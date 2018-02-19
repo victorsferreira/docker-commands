@@ -1,3 +1,5 @@
+## Commands
+
 - **docker pull <image-name>**
 Downloads the image
 
@@ -10,6 +12,10 @@ Specifies the running port
 - **docker exec -it [container-id] bash**
 enter a running container
 
+
+
 -d: Detached
+
 -it (-i -t): prints outputs
+
 --name <name>: specifies a name to the container
