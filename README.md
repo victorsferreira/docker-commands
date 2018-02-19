@@ -1,20 +1,20 @@
 ## Commands
 
-- **docker pull <image-name>**
+- **docker pull \<image-name\>**
 
 Downloads the image
 
 
-- **docker run [commands] <image-name>**
+- **docker run \[commands\] \<image-name\>**
 
 Creates a container from specified image
 
 
-- **docker run -p <host-port>:<exposed-container-port> <image-name>**
+- **docker run -p \<host-port\>:\<exposed-container-port\> \<image-name\>**
 
 Specifies the running port
 
-- **docker exec -it [container-id] bash**
+- **docker exec -it \[container-id\] bash**
 
 enter a running container
 
@@ -25,4 +25,4 @@ enter a running container
 
 -it (-i -t): prints outputs
 
---name <name>: specifies a name to the container
+--name \<name\>: specifies a name to the container
