@@ -32,7 +32,11 @@ remove os arquivos a serem comitados
 git checkout
 remove todas as alterações
 
+git clean [-df]
+remove recursivamente os untracked files
+
 Working directory -> Stage -> Repository
+untracked files -> tracked modified -> tracked unmodified
 
 ## Docker
 
