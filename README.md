@@ -66,3 +66,10 @@ enter a running container
 -it (-i -t): prints outputs
 
 --name \<name\>: specifies a name to the container
+
+## Mongo
+
+mongoexport --host <host> --port <port> --db <db name> --collection <collection name> --out <file name>
+  
+mongoimport --host <host> --port <port> --db <db name> --collection <collection name> --file <file name>
+
