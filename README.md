@@ -58,6 +58,14 @@ Specifies the running port
 
 enter a running container
 
+- **docker logs \<container\>**
+
+read the logs from a docker
+
+- **docker cp \<container\>:\<file\> \<destination\>**
+
+copies a file from a container
+
 
 ### other parameters
 
